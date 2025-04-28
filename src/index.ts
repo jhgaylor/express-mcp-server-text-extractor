@@ -13,7 +13,7 @@ app.use(express.json());
 app.post('/mcp', handler);
 
 // Start the server
-const PORT = process.env.PORT || 3001;
+const PORT = process.env.PORT || 3002;
 app.listen(PORT, () => {
   console.log(`Stateless MCP server running on port ${PORT}`);
 }); 
